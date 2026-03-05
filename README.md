@@ -3,6 +3,7 @@
 A derivative work based on [ringhyacinth/Star-Office-UI](https://github.com/ringhyacinth/Star-Office-UI).
 
 This project remakes the original "Pixel Office Status Board" into a "Liangshan-themed Pixel Board," using more narrative-driven scenes, characters, animations, and sound effects to represent the status changes of AI/Agents.
+![songjiang_writing](https://github.com/user-attachments/assets/0f127822-cdf8-496d-b802-e6c451455050)![songjiang_idle](https://github.com/user-attachments/assets/e7bc46da-82df-46aa-b5c5-025e1c159dd4)![songjiang_executing](https://github.com/user-attachments/assets/48da12cc-e897-41ab-b90d-b5668d0720d1)![songjiang_researching](https://github.com/user-attachments/assets/51b0002d-6a98-47fd-a291-36d229093b75)![songjiang_syncing](https://github.com/user-attachments/assets/bee99f32-12c0-4223-8566-3983508bdb4a)![songjiang_error](https://github.com/user-attachments/assets/40f5dda0-b8ab-4423-b437-61c863b44482)
 
 ## Project Features
 
