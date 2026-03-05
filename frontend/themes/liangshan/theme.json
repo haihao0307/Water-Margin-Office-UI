@@ -1,0 +1,186 @@
+{
+  "name": "liangshan",
+  "label": "梁山主题",
+  "assets": {
+    "bg": {
+      "webp": "/static/themes/liangshan/bg.webp",
+      "png": "/static/themes/liangshan/bg.png"
+    },
+    "bgFg": {
+      "png": "/static/themes/liangshan/bg_fg.png"
+    },
+    "hero": {
+      "png": "/static/themes/liangshan/songjiang_walking-spritesheet.png",
+      "frameWidth": 182,
+      "frameHeight": 230,
+      "frames": 5,
+      "frameRate": 8
+    },
+    "heroStates": {
+      "idle": {
+        "png": "/static/themes/liangshan/songjiang_idle-spritesheet.png",
+        "frameWidth": 682,
+        "frameHeight": 669,
+        "frames": 17,
+        "frameRate": 4,
+        "scale": 0.19
+      },
+      "writing": {
+        "png": "/static/themes/liangshan/songjiang_writing-spritesheet.png",
+        "frameWidth": 784,
+        "frameHeight": 906,
+        "frames": 10,
+        "frameRate": 4,
+        "scale": 0.14
+      },
+      "researching": {
+        "png": "/static/themes/liangshan/songjiang_researching-spritesheet.png",
+        "frameWidth": 182,
+        "frameHeight": 248,
+        "frames": 7,
+        "frameRate": 2,
+        "scale": 0.52
+      },
+      "executing": {
+        "png": "/static/themes/liangshan/songjiang_executing-spritesheet.png",
+        "frameWidth": 682,
+        "frameHeight": 669,
+        "frames": 9,
+        "frameRate": 4,
+        "scale": 0.19
+      },
+      "syncing": {
+        "png": "/static/themes/liangshan/songjiang_syncing-spritesheet.png",
+        "frameWidth": 791,
+        "frameHeight": 1023,
+        "frames": 5,
+        "frameRate": 4,
+        "scale": 0.13
+      },
+      "error": {
+        "png": "/static/themes/liangshan/songjiang_error-spritesheet.png",
+        "frameWidth": 365,
+        "frameHeight": 275,
+        "frames": 7,
+        "frameRate": 3,
+        "scale": 0.47
+      }
+    },
+    "spritesheets": {
+      "lantern": {
+        "png": "/static/themes/liangshan/props/lantern.png",
+        "frameWidth": 1,
+        "frameHeight": 1,
+        "frames": 4,
+        "frameRate": 6
+      },
+      "water": {
+        "png": "/static/themes/liangshan/props/water.png",
+        "frameWidth": 344,
+        "frameHeight": 364,
+        "frames": 4,
+        "frameRate": 7
+      },
+      "flag": {
+        "png": "/static/themes/liangshan/props/flag_5f.png",
+        "frameWidth": 275,
+        "frameHeight": 768,
+        "frames": 5,
+        "frameRate": 7
+      }
+    }
+  },
+  "hero": {
+    "role": "songjiang",
+    "scale": 0.56,
+    "origin": {
+      "x": 0.5,
+      "y": 1.0
+    }
+  },
+  "positions": {
+    "idle": {
+      "x": 640,
+      "y": 600
+    },
+    "writing": {
+      "x": 382,
+      "y": 378
+    },
+    "researching": {
+      "x": 640,
+      "y": 398
+    },
+    "executing": {
+      "x": 900,
+      "y": 398
+    },
+    "syncing": {
+      "x": 640,
+      "y": 680
+    },
+    "error": {
+      "x": 1066,
+      "y": 395
+    }
+  },
+  "effects": {
+    "syncing": {
+      "tint": "0x66ccff",
+      "shake": 0.0,
+      "bob": 2.0
+    },
+    "error": {
+      "tint": "0xff6666",
+      "shake": 1.6,
+      "bob": 0.0
+    }
+  },
+  "audio": {
+    "enabled": true,
+    "volume": 0.55,
+    "role": "songjiang",
+    "pattern": "/static/themes/liangshan/audio/{role}_{state}.mp3",
+    "states": {
+      "idle": {
+        "loop": true,
+        "volume": 0.7
+      },
+      "writing": {
+        "loop": true,
+        "volume": 0.8
+      },
+      "researching": {
+        "loop": true,
+        "volume": 0.8
+      },
+      "executing": {
+        "loop": true,
+        "volume": 0.8
+      },
+      "syncing": {
+        "loop": true,
+        "volume": 0.9
+      },
+      "error": {
+        "loop": true,
+        "volume": 0.9
+      }
+    }
+  },
+  "objects": [
+    {
+      "type": "animated",
+      "key": "flag",
+      "x": 904,
+      "y": 138,
+      "scale": 0.14,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "depth": 1200,
+      "clickText": "替天行道"
+    }
+  ]
+}

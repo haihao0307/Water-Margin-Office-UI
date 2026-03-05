@@ -1,0 +1,35 @@
+{
+  "name": "classic",
+  "label": "Classic (Debug)",
+  "assets": {
+    "bg": {
+      "webp": "/static/office_bg_small.webp",
+      "png": "/static/office_bg_small.png"
+    },
+    "hero": {
+      "webp": "/static/star-idle-spritesheet.webp",
+      "png": "/static/star-idle-spritesheet.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frames": 30,
+      "frameRate": 12
+    }
+  },
+  "hero": {
+    "scale": 1.4,
+    "origin": { "x": 0.5, "y": 1.0 }
+  },
+  "positions": {
+    "idle": { "x": 640, "y": 520 },
+    "writing": { "x": 320, "y": 460 },
+    "researching": { "x": 320, "y": 460 },
+    "executing": { "x": 320, "y": 460 },
+    "syncing": { "x": 640, "y": 550 },
+    "error": { "x": 1066, "y": 320 }
+  },
+  "effects": {
+    "syncing": { "tint": "0x66ccff", "shake": 0.0, "bob": 1.0 },
+    "error": { "tint": "0xff6666", "shake": 1.2, "bob": 0.0 }
+  }
+}
+
