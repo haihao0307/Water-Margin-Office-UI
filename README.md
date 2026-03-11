@@ -1,5 +1,5 @@
 # Water Margin-Office-UI
-
+This project is no longer maintained. Please follow our new project: https://github.com/haihao0307/Brotherhood-UI
 A derivative work based on [ringhyacinth/Star-Office-UI](https://github.com/ringhyacinth/Star-Office-UI).
 
 This project remakes the original "Pixel Office Status Board" into a "Liangshan-themed Pixel Board," using more narrative-driven scenes, characters, animations, and sound effects to represent the status changes of AI/Agents.
@@ -327,7 +327,7 @@ LICENSE
 
 
 # Water Margin-Office-UI
-
+此專案已經停止維護，請關注我們的新專案：https://github.com/haihao0307/Brotherhood-UI
 基於 [ringhyacinth/Star-Office-UI](https://github.com/ringhyacinth/Star-Office-UI) 的二次創作版本。
 本專案將原「像素辦公室狀態看板」重製為「梁山主題像素看板」，把 AI/Agent 的狀態變化用更有敘事感的場景、角色、動畫和音效表現出來。
 
